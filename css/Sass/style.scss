@@ -1,0 +1,97 @@
+.logo{
+	@include logo;
+}
+
+.fondo {
+	background-image: url("../../images/back-lock.jpg");
+	font-size: 100%;
+	padding-bottom: 200px;
+
+	p{
+		@include letra1;
+
+	}
+	h5{
+		@include letra2;
+	}
+
+}
+
+
+.texto-ind {
+	.imagenes2 {
+		@include pad;
+
+	}
+	.texto2 {
+		@include pad;
+
+		hr{
+			@include linea
+		}
+
+	}
+}
+
+
+.texto{
+	@include parrafo;
+	
+}
+
+.icon{
+	@include icon;
+}
+
+.info{
+	
+	padding-top: 20px;
+	padding-right: 60px;
+
+	img{
+		@include icon;
+	}
+
+	p{
+		@include text;
+	}
+
+}
+
+.fondo_video {
+	background-image: url("../../images/bg3.jpg");
+
+	h3{
+		@include blanco;
+	}
+	.texto_video{
+		padding-top: 40px;
+		hr{
+			
+			@include linea2;
+		}
+	}
+	.texto6
+		h6 {
+			@include blanco;
+			@include parrafo2;
+		}
+
+	.videito{
+		video{
+			@include videito;
+		}
+	}	
+}
+
+.team1{
+	@include datos;
+	hr {
+		@include linea3;
+	}
+	p {
+		padding-top: 20px;
+	}
+}
+ 
+

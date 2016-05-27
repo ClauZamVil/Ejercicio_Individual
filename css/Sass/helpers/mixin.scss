@@ -1,0 +1,105 @@
+@mixin logo{
+	height: 52px;
+	width: 59px;
+	
+}
+
+@mixin letra1 {
+	font-size: 30px;
+	font-family: $tipografia;
+	color: $color-letra1;
+	text-align: center;
+	padding-top: 120px;
+
+}
+@mixin letra2{
+	color: $color-letra1;
+	text-align: center;
+	font-family: $tipografia;
+
+}
+
+@mixin pad {
+	padding: 80px 0px 80px 40px;
+
+}
+
+@mixin linea {
+	
+	background-color: $color-lineagris;
+  	height: 4px;
+    width: 5%;
+    float: left;
+
+}
+
+@mixin parrafo {
+
+	color: $color-lineagris;
+	padding-top: 50px;
+	padding-right: 60px;
+	font-family: $tipografia;
+}
+
+@mixin icon {
+	color: $color-lineagris;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 20px;
+	
+}
+
+@mixin text {
+	padding-right: 20px;
+	color: $color-letra1;
+	font-family: $tipografia;
+}
+
+@mixin blanco{
+	color: white;
+	font-family: $tipografia;
+	padding-left: 40px;
+}
+
+@mixin videito{
+	width:100%;
+    max-width:640px;
+    
+
+}
+
+@mixin linea2 {
+	
+	background-color: $color-letra1;
+  	height: 4px;
+    width: 5%;
+    float: left;
+    margin-left: 40px;
+
+}
+
+@mixin parrafo2{
+
+	padding-top: 50px;
+	padding-right: 60px;
+	font-family: $tipografia;
+}
+ @mixin datos{
+ 	padding-top: 80px;
+ }
+
+ @mixin linea3{
+ 	background-color: $color-lineagris;
+  	height: 4px;
+    width: 5%;
+    float: left;
+    font-family: $tipografia;
+    
+ }
+
+
+
+
+/* Al presionar */
+

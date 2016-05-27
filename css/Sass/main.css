@@ -1,0 +1,95 @@
+/* Al presionar */
+.logo {
+  height: 52px;
+  width: 59px; }
+
+.fondo {
+  background-image: url("../../images/back-lock.jpg");
+  font-size: 100%;
+  padding-bottom: 200px; }
+  .fondo p {
+    font-size: 30px;
+    font-family: Raleway;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 120px; }
+  .fondo h5 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Raleway; }
+
+.texto-ind .imagenes2 {
+  padding: 80px 0px 80px 40px; }
+.texto-ind .texto2 {
+  padding: 80px 0px 80px 40px; }
+  .texto-ind .texto2 hr {
+    background-color: #A4A4A4;
+    height: 4px;
+    width: 5%;
+    float: left; }
+
+.texto {
+  color: #A4A4A4;
+  padding-top: 50px;
+  padding-right: 60px;
+  font-family: Raleway; }
+
+.icon {
+  color: #A4A4A4;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 20px; }
+
+.info {
+  padding-top: 20px;
+  padding-right: 60px; }
+  .info img {
+    color: #A4A4A4;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 20px; }
+  .info p {
+    padding-right: 20px;
+    color: #FFFFFF;
+    font-family: Raleway; }
+
+.fondo_video {
+  background-image: url("../../images/bg3.jpg"); }
+  .fondo_video h3 {
+    color: white;
+    font-family: Raleway;
+    padding-left: 40px; }
+  .fondo_video .texto_video {
+    padding-top: 40px; }
+    .fondo_video .texto_video hr {
+      background-color: #FFFFFF;
+      height: 4px;
+      width: 5%;
+      float: left;
+      margin-left: 40px; }
+  .fondo_video .texto6
+  h6 {
+    color: white;
+    font-family: Raleway;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 60px;
+    font-family: Raleway; }
+  .fondo_video .videito video {
+    width: 100%;
+    max-width: 640px; }
+
+.team1 {
+  padding-top: 80px; }
+  .team1 hr {
+    background-color: #A4A4A4;
+    height: 4px;
+    width: 5%;
+    float: left;
+    font-family: Raleway; }
+  .team1 p {
+    padding-top: 20px; }
+
+/*# sourceMappingURL=main.css.map */
